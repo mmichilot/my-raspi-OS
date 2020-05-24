@@ -1,4 +1,4 @@
-# myRaspiOS
+# my-raspi-OS
 
 A custom Raspberry Pi OS that I'm slowly making.  Mainly just for me to learn about OSes. Based off the tutorial from https://jsandler18.github.io/. Highly recommend checking it out if you want to learn about OSes and build your own OS for the Raspberry Pi.
 
