@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # myRaspiOS
 
 A custom Raspberry Pi OS that I'm slowly making.  Mainly just for me to learn about OSes. Based off the tutorial from https://jsandler18.github.io/. Highly recommend checking it out if you want to learn about OSes and build your own OS for the Raspberry Pi.
@@ -28,7 +32,7 @@ Go into the **build** directory:
 # cd ./build
 ```
 
-Download the ARM toolchain (can be found here: https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm/downloads). 
+Download the ARM toolchain (can be found here: https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm/downloads).
 
 Extract the file:
 
@@ -55,10 +59,10 @@ Once you have QEMU installed, just run:
 # make run
 ```
 
-This will build the kernel image, then boot the kernel image using QEMU. 
+This will build the kernel image, then boot the kernel image using QEMU.
 
 If you just want to build the kernel image and use a custom QEMU command, then run:
- 
+
 ```bash
 # make build
 ```
